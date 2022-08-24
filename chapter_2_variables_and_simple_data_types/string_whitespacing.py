@@ -36,3 +36,7 @@ print(favorite_language)
 favorite_language = favorite_language.lstrip()
 #Strips on the left side
 print(favorite_language)
+
+#You can just use .strip() to remove from both sides too
+favorite_language = favorite_language.strip()
+print(favorite_language)
