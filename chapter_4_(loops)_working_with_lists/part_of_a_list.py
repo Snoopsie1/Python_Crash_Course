@@ -23,7 +23,7 @@ print(players[2:])
 # to get for example, the last three players in a list
 print(players[-3:])
 
-#you can also add a third parameter when slicing.
+#You can also add a third parameter when slicing.
 # the third parameter indicates how many items to skip between items in the specified range
 # just like the range(x,y,z) method.
 print(players[::2])
