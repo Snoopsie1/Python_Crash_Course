@@ -19,3 +19,8 @@ print(dimensions[1])
 my_t = (3,)
 #It doesn't often make sense to build a tuple with one element,
 # but this can happen when tuples are generated automatically
+
+#You loop through a tuple the same way you do with a list.
+print("\nLOOP TIME")
+for dimension in dimensions:
+    print(dimension)
