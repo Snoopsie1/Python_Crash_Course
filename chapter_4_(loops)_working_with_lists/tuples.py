@@ -24,3 +24,17 @@ my_t = (3,)
 print("\nLOOP TIME")
 for dimension in dimensions:
     print(dimension)
+
+#Writing over a tuple
+#Although you can't modify a tuple, you can assign a new value to a variable that represents a tuple.
+# So if we wanted to change our dimension we could redefine the entire tuple:
+print("\nTime to overwrite a tuple")
+tupled_dimensions = (200, 50)
+print("Original dimensions:")
+for dimension in tupled_dimensions:
+    print(dimension)
+
+tupled_dimensions = (400, 100)
+print("\nModified dimension:")
+for dimension in tupled_dimensions:
+    print(dimension)
